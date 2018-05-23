@@ -1,5 +1,7 @@
 # PowerShell_Obf
 
+#PowerShell uses `` ` `` for escape characters.  CMD uses ` ^ `
+
 #Calling files in restricted language mode and bypass most AVs
 
 `` rundll32 url.dll,FileProtocolHandler file://`C`:`/`W`I`N`D`O`W`S`/`S`Y`S`T`E`M`3`2`/`C`A`L`C`.`E`X`E ``
